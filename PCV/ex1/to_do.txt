@@ -1,0 +1,27 @@
+1. Take an image and apply Gaussian blur like in Figure 1.9. Plot the image
+contours for increasing values of  . What happens? Can you explain why?
+
+2. Implement an unsharp masking operation
+(http://en.wikipedia.org/wiki/Unsharp_masking) by blurring an image and then
+subtracting the blurred version from the original. This gives a sharpening
+effect to the image. Try this on both color and grayscale images.
+
+3. An alternative image normalization to histogram equalization is a quotient
+image. A quotient image is obtained by dividing the image with a blurred
+version I/(I ⇤ G ). Implement this and try it on some sample images.
+
+4. Write a function that finds the outline of simple objects in images
+(for example a square against white background) using image gradients.
+
+5. Use gradient direction and magnitude to detect lines in an image. Estimate
+the extent of the lines and their parameters. Plot the lines overlaid on the
+image.
+
+6. Apply the label() function to a thresholded image of your choice. Use
+histograms and the resulting label image to plot the distribution of object
+sizes in the image.
+
+7. Experiment with successive morphological operations on a thresholded image
+of your choice. When you have found some settings that produce good results,
+try the function center_of_mass in morphology to find the center coordinates
+of each object and plot them in the image.
