@@ -2,7 +2,7 @@ from PIL import Image
 from numpy import *
 import os
 
-def process_image(imagename,resultname,params="--edge-thresh 10 --peak-thresh 5"):
+def process_image(imagename,resultname,params="--edge-thresh 5 --peak-thresh 2"):
     """ Process an image and siave the results in a file. """
 
     if imagename[-3:] != 'pmg':
@@ -12,8 +12,6 @@ def process_image(imagename,resultname,params="--edge-thresh 10 --peak-thresh 5"
         imagename = 'tmp.pgm'
 
     cmmd = str("./vlfeat-0.9.21/bin/maci64/sift "+imagename+" --output="+resultname+" "+params)
-
-    print cmmd
 
     print cmmd
 
