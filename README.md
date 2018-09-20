@@ -9,4 +9,4 @@ This chapter focussed in filters and the underlying algorithms used to blur/shar
 
 For example 1:
 
-![alt text](https://github.com/Quinnan-Gill/PCV/tree/master/images/empire.jpg "Logo")
+![alt text](https://github.com/Quinnan-Gill/PCV/tree/master/images/ex.png "Logo")
