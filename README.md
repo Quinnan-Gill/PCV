@@ -10,3 +10,5 @@ This chapter focussed in filters and the underlying algorithms used to blur/shar
 For example 1:
 
 ![Ex](https://github.com/Quinnan-Gill/PCV/blob/master/images/ex1.png)
+
+This provides a gaussian blur on the image of Gaussian = 0, as the gaussian increases the image gets more blurred.
